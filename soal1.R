@@ -5,10 +5,6 @@ dgeom(x = n, prob = p)
 #no.1b
 mean(rgeom(n = 10000, prob = p) == 3)
 
-#no.1c
-#Hasil dari perhitungan a dan b tidak terlalu jauh, bedanya kalau a itu nilainya tetap
-#sedangkan kalau b itu hasilnya random, besar kecil nilainya ditentukan oleh X
-
 #no.1d
 data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = p)) %>%
   mutate(Failures = ifelse(x == n, n, "other")) %>%
@@ -28,7 +24,7 @@ data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = p)) %>%
 #no.1e
 #Rataan
 miu = 1/p
-paste("Nilai Rataan adalah ", miu)
+paste("Average is ", miu)
 #varian
 varian = (1-p)/ p^2
-paste("Nilai Varian adalah ", varian)
+paste("Variant is ", varian)
