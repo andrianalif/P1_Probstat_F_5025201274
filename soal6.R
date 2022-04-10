@@ -32,7 +32,7 @@ paste("x1 adalah", x1)
 paste("x2 adalah", x2)
 
 #no.6b
-h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201223_Muhammad Ismail_B_DNhistogram")
+h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201274_Alif Adrian Anzary_F_DNhistogram")
 
 #no.6c
 varian = sd*sd
