@@ -213,7 +213,7 @@ paste("x2 adalah", x2)
 - Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan: ```NRP_Nama_Probstat_{Nama Kelas}_DNhistogram```
 ``` R
 #6b
-h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201223_Muhammad Ismail_B_DNhistogram")
+h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201274_Alif Adrian Anzary_F_DNhistogram")
 ```
 
 -  Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
