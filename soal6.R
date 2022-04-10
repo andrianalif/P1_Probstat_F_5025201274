@@ -36,4 +36,4 @@ h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201274_Alif Adrian Anzary_F_D
 
 #no.6c
 varian = sd*sd
-paste("varian adalah", varian)
+paste("Varian adalah", varian)
