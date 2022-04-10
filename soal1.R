@@ -2,6 +2,7 @@
 n = 3
 p = 0.20
 dgeom(x = n, prob = p)
+
 #no.1b
 mean(rgeom(n = 10000, prob = p) == 3)
 
@@ -22,9 +23,8 @@ data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = p)) %>%
        y = "Probability") 
 
 #no.1e
-#Rataan
 miu = 1/p
 paste("Average is ", miu)
-#varian
+
 varian = (1-p)/ p^2
 paste("Variant is ", varian)
