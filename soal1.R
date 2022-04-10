@@ -20,15 +20,15 @@ data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = p)) %>%
     size = 3,
     vjust = 0
   ) +
-  labs(title = "Histogram Distribusi Geometrik,Peluang X = 3 gagal Sebelum Sukses Pertama",
+  labs(title = "Probability of X = 3 Failures Prior to First Success",
        subtitle = "Geometric(.2)",
-       x = "Kegagalan sebelum sukses yang pertama (x)",
-       y = "Peluang") 
+       x = "Failures prior to first success (x)",
+       y = "Probability") 
 
 #no.1e
 #Rataan
 miu = 1/p
-paste("Rataan adalah ", miu)
+paste("Nilai Rataan adalah ", miu)
 #varian
 varian = (1-p)/ p^2
-paste("varian adalah ", varian)
+paste("Nilai Varian adalah ", varian)
